@@ -2,7 +2,7 @@
   command = ":"
   publish = "."
 
-# Optional redirect to index.html if someone visits "/"
+# Optional redirect (if someone visits just "/")
 [[redirects]]
   from = "/"
   to = "/index.html"
