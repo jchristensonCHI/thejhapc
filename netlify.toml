@@ -1,0 +1,11 @@
+[build]
+  # No build command needed for static HTML
+  command = ""
+  # Serve everything from repo root (adjust if you want /maps/ only)
+  publish = "."
+
+# Redirect root path "/" to index.html (already default, but explicit is safe)
+[[redirects]]
+  from = "/"
+  to = "/index.html"
+  status = 200
