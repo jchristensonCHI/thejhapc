@@ -4,6 +4,10 @@
   # Serve everything from repo root (adjust if you want /maps/ only)
   publish = "."
 
+[build.environment]
+  # Optional: specify environment variables if needed
+  NODE_VERSION = "18"
+
 # Redirect root path "/" to index.html (already default, but explicit is safe)
 [[redirects]]
   from = "/"
