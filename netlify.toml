@@ -1,9 +1,3 @@
 [build]
   command = ":"
   publish = "."
-
-# Optional redirect (if someone visits just "/")
-[[redirects]]
-  from = "/"
-  to = "/index.html"
-  status = 200
